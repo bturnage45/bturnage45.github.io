@@ -1,123 +1,125 @@
 ---
 layout: default
+title: Cybersecurity Portfolio
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+# Bradley Turnage  
+## Cybersecurity Portfolio
 
-[Link to another page](./another-page.html).
+Welcome to my cybersecurity portfolio. I’m a Cybersecurity student focused on hands-on security, IT support, networking, system administration, and security operations. This site highlights projects I’ve built to demonstrate practical skills in threat detection, network segmentation, Linux, Windows environments, SIEM tools, and security troubleshooting.
 
-There should be whitespace between paragraphs.
+---
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+## About Me
 
-# Header 1
+I’m interested in entry-level cybersecurity and IT roles where I can combine technical problem-solving with real-world support experience. My background includes IT support, Windows deployment, networking fundamentals, endpoint troubleshooting, and hands-on cybersecurity lab work.
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+I enjoy learning how systems are built, how they break, and how to secure them.
 
-## Header 2
+---
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+## Featured Projects
 
-### Header 3
+### Red Team / Blue Team Cybersecurity Lab
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+Built a virtual cybersecurity lab using pfSense, Wazuh, Kali Linux, and Ubuntu to simulate attacker and defender environments.
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+**Skills demonstrated:**
 
-#### Header 4
+- Network segmentation
+- Firewall rule configuration
+- SIEM log collection
+- Linux administration
+- Vulnerability scanning
+- Attack detection
+- Security monitoring
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
+**Tools used:**  
+`pfSense` `Wazuh` `Kali Linux` `Ubuntu` `Nmap` `Wireshark` `Virtualization`
 
-##### Header 5
+[View Project Details](projects/red-blue-lab.md)
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+---
 
-###### Header 6
+### pfSense Firewall and Network Segmentation Project
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
+Configured pfSense as a firewall/router to separate lab networks and control traffic between attacker, victim, and monitoring systems.
 
-### There's a horizontal rule below this.
+**Skills demonstrated:**
 
-* * *
+- WAN/LAN/OPT interface configuration
+- Firewall rule creation
+- ICMP blocking
+- Network isolation
+- Troubleshooting connectivity issues
 
-### Here is an unordered list:
+[View Project Details](projects/pfsense-firewall.md)
 
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
+---
 
-### And an ordered list:
+### Wazuh SIEM Monitoring Project
 
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
+Deployed Wazuh to collect, analyze, and monitor security events from lab machines. Used alerts and logs to understand suspicious activity and system behavior.
 
-### And a nested list:
+**Skills demonstrated:**
 
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
+- SIEM deployment
+- Log analysis
+- Alert tuning
+- Endpoint monitoring
+- Security event investigation
 
-### Small image
+[View Project Details](projects/wazuh-siem.md)
 
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
+---
 
-### Large image
+### Windows Deployment and IT Support Experience
 
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+Supported large-scale Windows device deployments and technical support tasks in an education environment.
 
+**Skills demonstrated:**
 
-### Definition lists can be used with HTML syntax.
+- Windows imaging
+- PXE deployment
+- Active Directory support
+- Hardware troubleshooting
+- User support
+- Endpoint setup
 
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
+[View Project Details](projects/windows-deployment.md)
 
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
+---
 
-```
-The final element.
-```
+## Technical Skills
+
+**Cybersecurity:**  
+SIEM monitoring, vulnerability scanning, firewall rules, basic incident response, network security concepts
+
+**Networking:**  
+TCP/IP, DNS, DHCP, VLANs, routing, firewall configuration, packet analysis
+
+**Systems:**  
+Windows, Linux, Ubuntu, Kali Linux, Active Directory basics
+
+**Tools:**  
+Wazuh, pfSense, Wireshark, Nmap, VirtualBox/Proxmox, GitHub, Microsoft tools
+
+---
+
+## Career Focus
+
+I’m currently pursuing entry-level roles in cybersecurity, IT support, endpoint support, IAM, network support, and security operations. My goal is to continue building real-world technical experience while growing into a cybersecurity-focused role.
+
+---
+
+## Contact
+
+**Email:** your-email@example.com  
+**LinkedIn:** [Your LinkedIn](https://www.linkedin.com/)  
+**GitHub:** [Your GitHub](https://github.com/yourusername)
+
+---
+
+## Resume
+
+[Download My Resume](resume.pdf)
